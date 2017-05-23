@@ -1,0 +1,211 @@
+ .main {
+     margin: 0 auto;
+     max-width: 100%;
+     background-color: #212121;
+     /*height: 800px;*/
+     padding: 10px;
+ }
+
+ .header {
+     width: 100%;
+     /*padding: 20px;*/
+     background-color:#E8E8E8;
+     text-align: center;
+ }
+
+ .left-header {
+     display: inline-block;
+ }
+
+ .logo {
+     display: inline-block;
+     vertical-align: middle;
+ }
+ .thisgallery{
+     margin: 0 auto;
+     max-width:700px;
+     height:800px;
+
+ }
+.photobroom{
+    display: none;
+    width:100%;
+
+}
+ .nbtextlogo {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color: #0a98d6;
+     display: inline-block;
+     vertical-align: middle;
+ }
+
+ .navigation {
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: right;
+     display: inline-block;
+     vertical-align: middle;
+ }
+
+ .navigation a {
+     text-decoration: none;
+     color: #0a98d6;
+ }
+
+ .navigation li {
+     list-style-type: none;
+     margin-top: 5px;
+ }
+
+ .h1title {
+     font-family: 'Playfair Display', serif;
+     font-size: 20px;
+     color:#A3A3A3;
+     text-align: left;
+     margin-top: 15px;
+     margin-left: 12px;
+     display:none;
+}
+ .content {
+     width: 45%;
+     margin: 2.5% 2.5%;
+     /*background: darkgrey;*/
+     /*display: inline-block;*/
+     float: left;
+ }
+
+ .content p {
+     margin-bottom: 10px;
+     text-align: justify;
+     color: #A3A3A3;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 14px;
+     line-height: 1.5;
+ }
+
+ .footer {
+     height: 200px;
+     background-color: #E8E8E8;
+ }
+
+ .map {
+     height: 400px;
+     width: 80%;
+     margin: 35px 40px;
+ }
+
+ .fullform {
+     max-width: 300px;
+ }
+
+ .bulkcontactform {
+     box-sizing: border-box;
+     border-radius: 4px;
+     border: 4px #E8E8E8 solid;
+     margin: 4px;
+     width: 100%;
+     background-color: #E8E8E8;
+ }
+
+ .textform {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     color: #E8E8E8;
+ }
+
+ .commentform {
+     border-radius: 4px;
+     border: 4px #E8E8E8 solid;
+     background-color: #E8E8E8;
+     margin-bottom: 6px;
+     width: 100%;
+     margin: 4px;
+     box-sizing: border-box;
+ }
+
+ .submitbutt {
+     float: right;
+     height: 30px;
+     width: 90px;
+     border: solid;
+     border-radius: 4px;
+     background-color: #0a98d6;
+     color:#E8E8E8;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     color: #E8E8E8;
+     margin: 4px;
+ }
+
+ .clearfix {
+     clear: both;
+ }
+
+ @media all and (max-width:560px) {
+     .nbtextlogo {
+         font-size: 25px;
+         margin: 12px 20px;
+     }
+     .navigation {
+         font-size: 12px;
+         margin: 12px
+     }
+     .navigation li {
+         margin-top: 2px
+     }
+     .logo {
+         width: 25px;
+         margin: 12px;
+     }
+     .h1title {
+         font-size: 19px;
+         margin-top: 10px;
+     }
+     .content {
+         width: 100%;
+         font-size: 12px;
+         margin: 0 auto;
+     }
+ }
+
+ @media all and (min-width:561px) and (max-width:1100px) {
+     .nbtextlogo {
+         font-size: 40px;
+         margin: 12px;
+     }
+     .navigation {
+         font-size: 16px;
+         margin: 12px;
+     }
+     .logo {
+         width: 55px;
+         margin: 12px;
+     }
+     .main {
+         border-left: 30px solid #0a98d6;
+         border-right: 30px solid #0a98d6;
+     }
+ }
+
+ @media all and (min-width:1101px) {
+     .nbtextlogo {
+         font-size: 70px;
+         margin: 20px 100px;
+     }
+     .navigation {
+         font-size: 16px;
+         margin: 20px;
+     }
+     .logo {
+         width: 70px;
+         margin: 20px;
+     }
+     .main {
+         border-left: 60px solid #0a98d6;
+         border-right: 60px solid #0a98d6;
+     }
+ }
+ .galleryheader {
+     text-align: center;
+     font: 50px bold;
+     color:  #0a98d6;
+ }
